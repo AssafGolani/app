@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/dark_purple_bg"
+    tools:context=".PlayerName"
+    tools:ignore="MissingClass">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Tic Tac Toe"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/playerName"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/dark_blue"
+        android:hint="Enter name"
+        android:paddingStart="10dp"
+        android:textColorHint="#80FFFFFF"
+        android:paddingEnd="10dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/round_back_blue_100"
+        android:text="Start Game"
+        android:textColor="@color/dark_blue"
+        android:textStyle="bold"
+        android:id="@+id/startGame"
+        android:textSize="18sp"/>
+
+</LinearLayout>

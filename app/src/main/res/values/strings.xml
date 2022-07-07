@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">a</string>
+    <string name="hint">enter text</string>
+    <string name="failed_login">Bye bye</string>
+    <string name="log_out">Log out from Firebase</string>
+    <string name="person">person</string>
+</resources>
